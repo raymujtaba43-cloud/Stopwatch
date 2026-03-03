@@ -1,0 +1,48 @@
+*{
+margin: 0%;
+padding: 0%;
+text-align: center;
+
+}
+.containor{
+    height: 35rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.box{
+    background-color: rgb(41, 44, 52);
+    height: 10rem;
+    width: 15rem;
+    align-content: center;
+    color: aliceblue;
+    border-radius: 2rem;
+}
+h1{
+    padding-bottom: 5px;
+    color: rgb(255, 251, 0);
+}
+.screen{
+    background-color: rgb(39, 33, 33);
+    padding: 10px;
+}
+.timer{
+    font-size: 35px;
+}
+button{
+    margin: 6px;
+    padding: 4px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 0 0 5px white;
+    font-size: 24px;
+}
+#stop-btn{
+    background-color: red;
+}
+#start-btn{
+    background-color: greenyellow;
+}
